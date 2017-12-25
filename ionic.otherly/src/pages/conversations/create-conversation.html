@@ -1,0 +1,93 @@
+<!--
+  Generated template for the CreateConversationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>create-conversation</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-row >
+    <ion-col col-12>
+        <ion-tags-input [(ngModel)]="usersSelected" [placeholder]="'Add Friends ..'"(onChange)="onChange($event)"></ion-tags-input>
+        <!-- <ion-tags-input [(ngModel)]="usersSelected" (onChange)="onChange($event)"></ion-tags-input> -->
+      <!-- <ion-textarea [(ngModel)]="users_selected" >   </ion-textarea> -->
+    </ion-col>
+  </ion-row>
+  <ion-row>
+      <ion-list>
+          <button class="create-conv" ion-button outline color="dark" (click)="cancelConversation()" >Cancel</button>   
+          <button ion-button outline class="create-conv" (click)="nextConversation()">Next</button>
+      </ion-list>
+  </ion-row> 
+    <ion-list class="ion-list" >    
+            <!-- LOOP WITH THE FRIENDS LIST -->        
+            <ion-item *ngFor="let list of List; let i=index" >
+        <!-- CONTACT FROM OTHERLY  -->
+        <ion-row *ngIf="list.instance.source =='O'" (click)="selectUser(list.instance.username)">            
+                    <ion-col class="user-picture" col-3 >
+                      <img *ngIf="list.instance.photo_url =='' || list.instance.photo_url == undefined" src="assets/img/avatar_small.png" />
+                      <img *ngIf="list.instance.photo_url !== undefined"  src='{{list.instance.photo_url}}' />
+                    </ion-col>
+                    <ion-col col-5>
+                      <div *ngIf="list.instance.first_name != ''" class="object-item">
+                        <div ><b>{{list.instance.full_name}}</b>
+                        </div>
+                      </div>          
+                      <!-- <div *ngIf="list.instance.first_name == '' && list.instance.full_name != '' " class="object-item">
+                        <div ><b>{{list.instance.full_name}}</b>
+                        </div>
+                      </div> -->
+            
+                      <div *ngIf="list.instance.rating == 0" >
+                        <ion-icon class="star" name='star' ></ion-icon>
+                        <ion-icon class="star" name='star'  ></ion-icon>
+                        <ion-icon class="star" name='star'  ></ion-icon>
+                      </div>
+                      <div *ngIf="list.instance.rating == 1" >
+                        <ion-icon class="star yellow-star" name='star'  ></ion-icon>
+                        <ion-icon class="star" name='star'></ion-icon>
+                        <ion-icon class="star" name='star' ></ion-icon>
+                      </div>
+                      <div *ngIf="list.instance.rating == 2" >
+                        <ion-icon class="star yellow-star" name='star' ></ion-icon>
+                        <ion-icon class="star yellow-star" name='star'></ion-icon>
+                        <ion-icon class="star" name='star'></ion-icon>
+                      </div>
+                      <div *ngIf="list.instance.rating == 3" >
+                        <ion-icon class="star yellow-star" name='star' ></ion-icon>
+                        <ion-icon class="star yellow-star" name='star' ></ion-icon>
+                        <ion-icon class="star yellow-star" name='star'></ion-icon>
+                      </div>
+            
+            
+                    </ion-col>
+            
+                    <ion-col col-4 class="ion-col-helps">
+                      <div class="helps_given">{{list.instance.helps_given}}</div>
+                      <div class="helps_given_text">helps given</div>
+                    </ion-col>
+                  </ion-row>
+            
+                   <!-- CONTACT FROM MOBILE  -->
+      <ion-row *ngIf="list.instance.source =='M'">
+          
+                  <ion-col col-2 *ngIf="list.instance.photo_url ==''">
+                    <img  src="assets/img/avatar_small.png" />
+                  </ion-col>
+                  <ion-col col-6>
+                    <div class="object-item">
+                      <div ><b>{{list.instance.full_name}}</b>
+                      </div>
+                    </div>          
+                  </ion-col>         
+                  <ion-col col-4 class="ion-col-helps">
+                        <button>INVITE</button>
+                  </ion-col>
+                </ion-row>
+            </ion-item>
+    </ion-list>
+</ion-content>

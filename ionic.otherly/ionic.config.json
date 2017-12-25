@@ -1,0 +1,12 @@
+{
+  "name": "ionic2",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+  ,"proxies":[{
+    "path":"/api",
+    "proxyUrl":"http://staging.other.ly/api/"
+    }]
+    }
