@@ -1,0 +1,12 @@
+{
+  "name": "ly.other.android",
+  "app_id": "637246356462716",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+  ,"proxies":[{
+    "path":"/api",
+    "proxyUrl":"http://staging.other.ly/api/"
+    }]
+    }

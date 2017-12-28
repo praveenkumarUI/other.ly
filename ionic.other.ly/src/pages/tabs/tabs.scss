@@ -1,0 +1,45 @@
+tabs {
+
+	.ion-md-otherly-home,.ion-ios-otherly-home,.ion-android-otherly-home,
+	.ion-md-otherly-friends,.ion-ios-otherly-friends,.ion-android-otherly-friends,
+	.ion-md-otherly-talk,.ion-ios-otherly-talk,.ion-android-otherly-talk,
+	.ion-md-otherly-notifications,.ion-ios-otherly-notifications,.ion-android-otherly-notifications,
+	.ion-md-otherly-search,.ion-ios-otherly-search,.ion-android-otherly-search,
+	.ion-md-otherly-more,.ion-ios-otherly-more,.ion-android-otherly-more 
+	{
+	 	height: 30px !important;
+	 	width: 30px !important;
+	 	background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+
+	.ion-md-otherly-home,.ion-ios-otherly-home,.ion-android-otherly-home{
+		background-image: url("../assets/icon/home_white.png");
+	}
+
+	.ion-md-otherly-friends,.ion-ios-otherly-friends,.ion-android-otherly-friends {
+		background-image: url("../assets/icon/friends_white.png");
+	}
+
+	.ion-md-otherly-talk,.ion-ios-otherly-talk,.ion-android-otherly-talk {
+		background-image: url("../assets/icon/talk_white.png");
+	}
+
+	.ion-md-otherly-notifications,.ion-ios-otherly-notifications,.ion-android-otherly-notifications {
+		background-image: url("../assets/icon/notifications_white.png");
+	}
+	.ion-md-otherly-search,.ion-ios-otherly-search,.ion-android-otherly-search {
+		background-image: url("../assets/icon/search_white.png");
+	}
+
+	.ion-md-otherly-more,.ion-ios-otherly-more,.ion-android-otherly-more {
+		background-image: url("../assets/icon/more_upper_white.png");
+		height: 10px !important;
+	 	width: 30px !important;
+	}
+
+	.tabs-md .tabbar, .tabbar.show-tabbar {
+		background-color: #387ef5;
+	}
+
+}

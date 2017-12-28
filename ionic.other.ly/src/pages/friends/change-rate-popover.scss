@@ -1,0 +1,53 @@
+page-change {
+
+	.toolbar-title-md {
+		padding: 5px 12px;
+	    font-size: 2.2rem;
+	    text-align: center;
+	}
+
+	.stars {
+		display: flex;
+	    justify-content: center;
+	    justify-items: center;
+	    align-items: center;
+	    padding: 0 0 10px 10px;
+	}
+
+	.list-md , .list-ios{
+			margin: 0;
+	}
+
+	.buttons {
+		display: flex;
+	    justify-content: center;
+	    justify-items: center;
+	    align-items: center;
+	    &.cancel {
+	    	color: red;
+	    	font-weight: 600;
+	    	font-size: 20px;
+	    }
+	    &.apply {
+	    	color: green;
+	    	font-weight: 600;
+	    	font-size: 20px;
+	    }
+
+	}
+
+	ion-icon {
+		text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+		&.star{
+			color: grey;
+			padding: 10px 13px 0 0;
+			font-size: 25px;
+		}
+		&.yellow-star {
+			color: yellow !important;
+		}
+	}
+
+	
+
+}
