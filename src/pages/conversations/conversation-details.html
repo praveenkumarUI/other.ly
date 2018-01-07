@@ -1,0 +1,54 @@
+<!--
+  Generated template for the ConversationDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>conversation-details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content   padding>
+  <h2>test</h2>
+
+<!-- 
+    <ion-item *ngFor="let item in details" >
+      {{item}}
+    </ion-item> -->
+    <!-- <ion-item class="chat-item" *ngFor="let item of Details"> -->
+      <!-- <ion-item *ngFor="let replies of item.replies ">
+          {{ replies.text }}
+      </ion-item> -->
+      <ion-item class="chat-item" *ngFor="let reply of replies" >
+          <ion-col col-2>
+              <img class="chat-avatar" src="assets/img/avatar_small.png" /> 
+          </ion-col>
+      <div *ngIf="reply.participant.user.username == 'test_lyrylhb_three'" class="talk-bubble round tri-right right-top">
+        <div class="talktext">
+          <p><strong>{{reply.participant.user.first_name}} {{reply.participant.user.last_name}}</strong><br/>
+             {{ reply.text }}</p>
+        </div>
+      </div>
+
+      <div *ngIf="reply.participant.user.username !== 'test_lyrylhb_three'" class="talk-bubble round tri-right left-top">
+        <div class="talktext">
+          <p><strong>{{reply.participant.user.first_name}} {{reply.participant.user.last_name}}</strong><br/>
+             {{ reply.text }}</p>
+        </div>
+      </div>
+    </ion-item>
+   <div class="chat-gap" >
+   </div>
+  <div class="chat-panel">
+   <ion-input type="text" class="chat-box" [(ngModel)]="reply" (keyup.enter)="replyConversation()" placeholder="Reply Message" ></ion-input> 
+    <div >
+      <button class="chat-buttoms" ion-button outline color="dark" (click)="clearConversation()" >Clear</button>   
+      <button ion-button outline class="chat-buttoms" (click)="replyConversation()">Send</button>
+    </div>
+  </div>
+</ion-content>

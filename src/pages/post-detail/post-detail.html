@@ -1,0 +1,103 @@
+<!--
+  Generated template for the PostDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar hide-tabs>   
+    <ion-title class="page-title"><ion-icon name="back" class="icon-back"></ion-icon></ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+	<ion-row class="comment-area" ion-fixed>
+		<ion-card class="comment" >
+
+	    <ion-row>
+		      <ion-col col-3 class="user-info" *ngIf="UserData.picture != ''">
+		        <img  src="{{ UserData.picture }}" />
+		      </ion-col>
+		      <ion-col col-3 class="user-info" *ngIf="UserData.picture == ''">
+		          <img  src="assets/img/avatar_small.png" />
+		      </ion-col>
+
+		      <ion-col col-9 >
+		        <ion-col col-12 class="user-infos" *ngIf="UserData">{{ UserData.first_name }} {{ UserData.last_name }}</ion-col>
+		          <ion-col col-12 class="post-text">
+		            
+		              <textarea [(ngModel)]="post_text" placeholder="Write what you are looking for or what you are offering..." >
+		              </textarea>
+		           
+		          </ion-col>
+		      </ion-col>
+		  </ion-row>
+	    
+	    
+	      <ion-col col-6 class="share-button" >
+	        <button icon-left >
+	          <ion-icon name="share"></ion-icon>
+	        </button>
+	      </ion-col>
+	      <ion-col col-6 class="post-buttom">
+	        
+	        <button end (click)="createPost()">Comment</button>
+	     
+	      </ion-col>
+	    
+
+	    
+	  </ion-card>
+	</ion-row>
+
+
+
+  <ion-list class="replies" *ngIf="Details">
+
+    <!-- LOOP WITH THE FRIENDS LIST -->
+    
+    <ion-item *ngFor="let detail of Details" >
+
+    
+      <ion-row >
+
+        
+          
+        <ion-col class="user-picture" col-2 >
+          <img *ngIf="detail.creator.photo_url == '' || detail.creator.photo_url == undefined" src="assets/img/avatar_small.png" />
+          <img *ngIf="detail.creator.photo_url != undefined"  src='{{detail.creator.photo_url}}' />
+        </ion-col>
+        
+        <ion-col col-9>
+          <ion-card-header text-wrap>
+            {{detail.creator.first_name}} {{detail.creator.last_name}}
+          </ion-card-header>
+
+           <ion-col col-1>
+         	{{detail.text}}
+       	 	</ion-col>
+
+        </ion-col>
+
+        <ion-col col-1>
+          <ion-icon name="star"></ion-icon>
+        </ion-col>
+        
+
+       
+      </ion-row>
+      
+
+        
+    </ion-item>
+
+    
+    <!-- END OF LOOP -->
+  </ion-list>
+
+
+
+</ion-content>

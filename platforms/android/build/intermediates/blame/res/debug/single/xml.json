@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\ionic2\\ionic2\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\ionic2\\ionic2\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\ionic2\\ionic2\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\sharing_paths.xml",
+        "source": "E:\\ionic2\\ionic2\\platforms\\android\\res\\xml\\sharing_paths.xml"
+    }
+]

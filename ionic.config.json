@@ -1,0 +1,12 @@
+{
+  "name": "ly.other.android",
+  "app_id": "637246356462716",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+  ,"proxies":[{
+    "path":"/api",
+    "proxyUrl":"http://52.27.198.130:8080/api"
+    }]
+    }

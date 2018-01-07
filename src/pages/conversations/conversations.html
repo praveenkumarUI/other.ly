@@ -1,0 +1,56 @@
+<!--
+  Generated template for the ConversationsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+  <ion-item>
+      <ion-input [(ngModel)]="search_conversation_list" (keyup.enter)="SearchConversationList()" placeholder="Search" >
+      </ion-input>
+  </ion-item>
+  <ion-row>
+    <ion-col col-6>
+      <div padding>
+        <b>Conversations</b>
+      </div>
+    </ion-col>
+  
+    <ion-col col-6>
+      <div padding >
+        <button (click)="new_talk()">
+            New Talk
+        </button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-list class="ion-list" >
+
+        <!-- LOOP WITH THE Conversation LIST -->
+        
+        <ion-item *ngFor="let list of Conversations; let i=index" >
+          <ion-row >
+           
+          </ion-row>
+    
+        <ion-row>
+            <ion-col col-2>
+                <img  src="assets/img/avatar_small.png" /> 
+              </ion-col>
+
+          <ion-col col-4 class="two_chars" (click)="showConversationDetails(list.post.code)">
+              <ion-row><div  *ngIf="list.post.title; else show_name">{{list.post.title}}</div>  <ng-template #show_name>{{list.post.first_name}} </ng-template></ion-row>
+              <ion-row>  {{list.post.first_name}} {{list.post.last_name}} </ion-row>
+          </ion-col>
+          
+          
+    
+       
+        </ion-row>
+    
+        
+        <!-- END OF LOOP -->
+        </ion-item>
+       
+  </ion-list>
+</ion-content>

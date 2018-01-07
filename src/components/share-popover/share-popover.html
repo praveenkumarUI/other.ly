@@ -1,0 +1,64 @@
+<!-- Generated template for the SharePopoverComponent component -->
+<ion-list radio-group [(ngModel)]="ShareOptions" multiple="true">
+
+	<ion-title>Choose where to share</ion-title>
+	<ion-item (click)="ShareFB()"><ion-label><ion-icon name="star"></ion-icon> Facebook</ion-label></ion-item>
+
+	<ion-item (click)="ShareWithFriends()">
+		<ion-label > 
+			<ion-icon name="star"></ion-icon> 
+		Share with my friends
+		</ion-label>
+		<!--<ion-radio (ionSelect)="changed()" value="my-friends" name='radio_friends'></ion-radio>-->
+	</ion-item>
+	<!-- <ion-list class="friends-list" *ngIf="Friends && ShareOptions == 'my-friends'" >
+		<ion-item *ngFor="let friend of Friends">
+	    
+	    	<ion-checkbox ></ion-checkbox>
+	    	
+	    	<ion-label>
+	    		<div *ngIf="friend.instance.first_name != ''" class="object-item">
+            		<div ><b>{{friend.instance.full_name}}</b>
+            		</div>
+          		</div>
+          	</ion-label>
+
+	    	
+		</ion-item>
+	</ion-list> -->
+
+
+
+
+	<ion-item>
+    
+    	<ion-radio (ionSelect)="changed()" value="my-page" ></ion-radio><ion-label>Share on my page</ion-label>
+	</ion-item>
+	<ion-item>
+    
+    	<ion-label>Share on my community</ion-label>
+    	<ion-radio (ionSelect)="changed()" value="my-community" name='radio_community'></ion-radio>
+	</ion-item>
+	<ion-list *ngIf="Communities && ShareOptions == 'my-community'" >
+		<ion-item *ngFor="let community of Communities">
+	    
+	    	<ion-checkbox (click)="ChooseCommunity(community.slug)"></ion-checkbox>
+	    	
+	    	<ion-label><ion-icon name="people"></ion-icon> {{community.title}}</ion-label>
+
+	    	
+		</ion-item>
+
+		<ion-row>
+			<ion-col col-6>
+				<button ion-button round full>CLEAR</button>
+			</ion-col>
+			<ion-col col-6>
+				<button ion-button round full>SHARE</button>
+			</ion-col>
+		</ion-row>
+	</ion-list>
+
+
+
+</ion-list>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\11.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="99e6d4fce7eaa92916cf26f951414b1849ce4ef5">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-11.8.0_3aab677f269f5ddec1fadf4f25d21ce1b0a50266.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\customtabs\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="7ca71e38c643e51083ab3a07f3a056bfb066caec">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-customtabs-27.0.1_433e157fc931154bc91fb4041e32ec55b9fd7316.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HOME\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_fb672f97d3146c10215c811383ddbd9ce384710b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.0.0_eef47967ea67c4e24e97e1ea4986bbfbaff8955e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-applinks\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-applinks-4.29.0_48ea303da4912a4fd537bfd1391252443b1850e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="59cbbfb2937ebed98c8bb8882b7112d16358014e">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-27.0.1_ba5dd194a57185b2dce12a3f2a5691e83cba6646.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HOME\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.1\287742f1c6cea6d9126670e9f031890b0462362a\support-annotations-27.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="287742f1c6cea6d9126670e9f031890b0462362a">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-27.0.1_696a96d83e6f8ec3ce47441b01b8788ff9aaf2f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.29.0_ddca827e2898477a2c52463765722e608ea7c534.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-core\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="dc98b63d89490102b0a38423e24dce190354795b">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-core-4.29.0_512207c8d08dd6b4d6d1449f67cca345964e4e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HOME\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\common-1.0.0_0fab2507479c36dce7c443ad78e08d2c42fc0d88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-login\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-login-4.29.0_bcea10e8ecf85e3e58c107f7b9bd8f09ac8e95e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d4f9ace23785adf79a174d569bde261f032e1190">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-27.0.1_53778c819256f2806a9fcc81518a8b6aa9254e4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="0a23c4daa97697118d96f2b09d1dbaf9ea943d8d">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-11.8.0_0028843e15e6320110c341a438ce22aaa23a9904.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-11.8.0_70576b26e9db252a13f2d8c61f952f05c0c75422.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f10fed27d6d0b4aae675f17b33c639b4d5a0ed93">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-27.0.1_cffa732d23f81d9aa5e365605c8d15066e8abb37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="6746a3078625563a9eb381920f34e47ccd6bab87">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.8.0_9b04dc47ac3ee2c36d09dc480a34c91b3380ebf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="cbbd26dd2f6d46181b41a5f6f5e34889442a811b">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-27.0.1_5f5c69fa55a139d0a8f5fecef90ec467092bf246.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d928394035bd4f7d2ee9e1c63d45f9ec088e21a4">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-27.0.1_1e85aa1dd62b9a89fd46d48aa1e9d2894a072162.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-api-phone\11.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fe94ced585bffcf3c7f788a294cc54e6785544ac">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-api-phone-11.8.0_73eed3e721b99761e65eba8a63614c5bf616870a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HOME\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_1a135829646b2e15d4a30e87309f7000e3f8c0a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.8.0_4a28a46c2994ce56f37d6e22a2b8a4bf8e27ef05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HOME\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\common-1.0.0_cb7a37dada631026fa3a329fc4a9651101eecc0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-common\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f95788f0e923006a2da51733d4cbd5c08aad299c">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-common-4.29.0_49b9b8fa9d3fabcbf038f5ee463ec290c02ae2ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-messenger\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-messenger-4.29.0_69ca34733066f313d32bd488a2967b57494e86fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-share\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="07ca601b039863d2c018dc7f625e845084d6d18b">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-share-4.29.0_292f64eba5c33bc95095d97428fd07712dfccd21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="91dae39a5cc837ad2a829c0dc69c57ab8d69d22b">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-compat-27.0.1_2ffbd541a189ea9c3d73f1a6f4083b4856817a0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.3.0\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="df1a7a6af20c4eca090c1f535b77951ef6025bfb">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.3.0-debug_1c792dd757bd9ffe0802ab9e683c634dbd4a0536.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="69f7591c9ff9238ff226e264c0260bb9f1ce0029">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-27.0.1_fd6d1bd5b5fbf02c72b5909fb4c91ed95920e974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-places\4.29.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-places-4.29.0_50dfba5d82ec9e633a6730430518990c7650ad72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ac5e6ae168ef77f0b0b1e3245d7afd7d32f710c3">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-27.0.1_52e7b5b1ca8968827be1cdd838f88116e52f32e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.8.0_e8fa179b3083dd6bd66e302700d90f80f44e5424.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HOME\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\core-3.3.0_01085409268b00a117188bebcab8120a17994306.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\cardview-v7\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="925879273e627f34059466359ba6789cf61889e2">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-27.0.1_3c93c6816dfef2ddf4eb0b7e37dd4fd138c35a8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic2\ionic2\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\27.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f8a80c9882b064f2943e10649a8d2b249f5bf176">
+        <dex dex="E:\ionic2\ionic2\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-27.0.1_ce04e005ec90a72ed184a7c0a3d6428ef8be9fb6.jar" />
+    </item>
+
+</items>

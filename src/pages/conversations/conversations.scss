@@ -1,0 +1,20 @@
+page-conversations {
+    .item-input{
+		padding-left: 0 !important;
+	.item-inner {
+		padding-right: 0 !important;
+		ion-input {
+			background-color: #f6f6f6;
+			padding: 0;
+			}
+		}
+    }
+    button {
+		font-size: 16px;
+		background-color: white;
+		border: 1px blue solid;
+		padding: 8px 10px;
+		border-radius: 7px;
+	}
+
+}
